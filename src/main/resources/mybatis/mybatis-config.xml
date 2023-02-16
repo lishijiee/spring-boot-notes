@@ -25,4 +25,8 @@
         <!-- 分页插件 -->
         <plugin interceptor="com.github.pagehelper.PageInterceptor" />
     </plugins>
+    <!--加载sql映射文件-->
+<!--    <mappers>-->
+<!--		<package name="com.gulo.mapper.*xml"></package>-->
+<!--	</mappers>-->
 </configuration>
