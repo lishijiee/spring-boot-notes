@@ -6,12 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public class AcctServices {
     @Autowired
-    AcctInfMapper acctInfMapper;
+    private AcctInfMapper acctInfMapper;
 
     public List<AcctInf> getAllAcct(){
         return acctInfMapper.getAllAcct();
     }
+
 }
