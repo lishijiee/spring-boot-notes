@@ -1,4 +1,7 @@
-
+server:
+  port: 9031
+  servlet:
+    context-path: /code-mybatis/
 
 spring:
   # ???????
@@ -27,7 +30,7 @@ mybatis:
   #  ??xml??
   mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
   #  ??model???
-#  type-aliases-package: "com.example.awesomespring.dao.entity.*"
+#  type-aliases-package: com.lishjie.awesomespring.dao.entity.*
 
 # ????
 logging:
@@ -40,5 +43,4 @@ logging:
     root: info
     # ???????
     com.example.awesomespring: warn
-server:
-  port: 9031
+
