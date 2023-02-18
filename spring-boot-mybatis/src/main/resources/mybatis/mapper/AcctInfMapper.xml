@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="io.lishjiee.boot.mapper.AcctInfMapper">
-    <select id="getAllAcct" resultType="io.lishjiee.boot.pojo.AcctInf">
+<mapper namespace="AcctInfMapper">
+    <select id="getAllAcct" resultType="AcctInf">
         select * from acct_inf;
     </select>
 
-    <insert id="addAcct" parameterType="io.lishjiee.boot.pojo.AcctInf">
+    <insert id="addAcct" parameterType="AcctInf">
         insert into acct_inf (user_no, amt) values (#{userNo}, #{amt});
     </insert>
 
-    <update id="updateAcctById" parameterType="io.lishjiee.boot.pojo.AcctInf">
+    <update id="updateAcctById" parameterType="AcctInf">
         update acct_inf set user_no=#{userNo}, amt=#{amt} where id = #{id};
     </update>
 

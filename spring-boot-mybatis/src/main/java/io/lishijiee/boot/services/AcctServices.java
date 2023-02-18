@@ -1,7 +1,7 @@
-package io.lishjiee.boot.services;
+package io.lishijiee.boot.services;
 
-import io.lishjiee.boot.mapper.AcctInfMapper;
-import io.lishjiee.boot.pojo.AcctInf;
+import io.lishijiee.boot.mapper.AcctInfMapper;
+import io.lishijiee.boot.pojo.AcctInf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

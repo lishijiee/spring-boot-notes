@@ -1,4 +1,4 @@
-package io.lishjiee.boot.pojo;
+package io.lishijiee.boot.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,4 +11,5 @@ public class AcctInf {
     private String id;
     private String userNo;
     private String acctNo;
+    private String amt;
 }

@@ -1,6 +1,6 @@
-package io.lishjiee.boot.mapper;
+package io.lishijiee.boot.mapper;
 
-import io.lishjiee.boot.pojo.AcctInf;
+import io.lishijiee.boot.pojo.AcctInf;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

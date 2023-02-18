@@ -1,10 +1,10 @@
-package io.lishjiee.boot;
+package io.lishijiee.boot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootNotesApplicationTests {
+class SpringBootMybatisApplicationTests {
 
     @Test
     void contextLoads() {
