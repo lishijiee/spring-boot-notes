@@ -6,10 +6,7 @@ server:
 spring:
   # ???????
   datasource:
-    url: jdbc:mysql://1.15.98.165:6033/haha?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=UTC
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: HBQinjie123!
+
     # ???
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
