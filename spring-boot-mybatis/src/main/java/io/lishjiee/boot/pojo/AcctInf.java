@@ -11,4 +11,5 @@ public class AcctInf {
     private String id;
     private String userNo;
     private String acctNo;
+    private String amt;
 }
