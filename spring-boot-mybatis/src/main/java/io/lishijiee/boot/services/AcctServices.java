@@ -13,7 +13,15 @@ public class AcctServices {
     private AcctInfMapper acctInfMapper;
 
     public List<AcctInf> getAllAcct(){
-        return acctInfMapper.getAllAcct();
+
+        List<AcctInf> allAcct = null;
+        try {
+            allAcct = acctInfMapper.getAllAcct();
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+        return allAcct;
     }
 
 }
