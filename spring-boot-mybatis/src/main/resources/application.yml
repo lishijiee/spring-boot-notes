@@ -4,9 +4,12 @@ server:
     context-path: /code-mybatis/
 
 spring:
-  # ???????
+  # 数据源
   datasource:
-
+    url: jdbc:mysql://1.15.98.165:6033/haha?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: HBQinjie123!
     # ???
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -27,17 +30,4 @@ mybatis:
   #  ??xml??
   mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
   #  ??model???
-#  type-aliases-package: com.lishjie.awesomespring.dao.entity.*
-
-# ????
-logging:
-  pattern:
-    # ??????
-    console: "%d{yyyy-MM-dd HH:mm:ss} %clr(%5p) [%thread] %clr(%logger){cyan} : %msg%n"
-  level:
-    #    trace < debug < info < warn < error < fatal
-    # ??????
-    root: info
-    # ???????
-    com.example.awesomespring: warn
-
+#  type-aliases-package: com.lishijiee.awesomespring.dao.entity.*
